@@ -3,7 +3,7 @@ require_relative '../lib/fizzbuzz'
 describe 'fizzbuzz' do
   it 'input is type of integer'
     fizzbuzz.should_recieve(Integer)
-		fizzbuzz("hello")
+	fizzbuzz("hello")
   end
 	it 'returns "fizz" when passed 3' do
     expect(fizzbuzz(3)).to eq 'fizz'
